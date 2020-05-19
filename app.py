@@ -1,6 +1,7 @@
 import os
 import filecmp
 import sys
+import boto3
 
 if len(sys.argv) == 1:
     print( "Give input directory as an argument")
